@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Funnel+Display:wght@300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Outfit:wght@100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    display: grid;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/overlapping-forms-background_52683-45675.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.373);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.84);
+    padding: 20px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.Container:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.689);
+}
+
+.Heading {
+    font-family: "Overlock", serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    display: grid;
+    font-family: "Caveat Brush", serif;
+    font-size: 22px;
+    row-gap: 10px;
+}
+
+input {
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.373);
+    text-indent: 10px;
+    width: 300px;
+}
+
+input:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.689);
+}
+
+.Submit_btn {
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(137, 43, 226);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.373);
+    font-family: "Overlock", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.BlueButton {
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.373);
+    border: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Overlock", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.BlueButton:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.689);
+}
+
+.WhiteButton {
+    background-color: White;
+    color: blueviolet;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.373);
+    border: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-family: "Overlock", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.WhiteButton:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.689);
+}
